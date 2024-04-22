@@ -1,0 +1,306 @@
+#ruleta li, #ruleta, #ruleta > img, #ruleta ul, #resp_mezcla > :nth-child(2) p, #resp_mezcla > :nth-child(4) p, #cont_inf_mezcla, #ruleta li img {
+	position: absolute;
+}
+#fb-welcome {
+	display: none;
+}
+#cont_ruleta {
+	width: 70%;
+	height: 70%;
+	top: 20%;
+	left: 25%;
+}
+#cont_ruleta p {
+	font-family: 'Open Sans', sans-serif;
+}
+#cont_ruleta p:nth-child(1) {
+	font-size: 30px;
+	text-align: center;
+	top: -3%;
+}
+#cont_ruleta p:nth-child(1) span {
+	color: #15889b;
+}
+#cont_ruleta p:nth-child(2), #cont_ruleta p:nth-child(3) {
+	white-space: pre-line;
+	width: 50%;
+	z-index: 1;
+}
+#ruleta {
+	width: 400px;
+	height: 400px;
+	top: 10%;
+	left: 25%;
+	display: none;
+}
+#ruleta > img {
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+}
+#ruleta #marco {
+	top: -52px;
+	left: -195px;
+	height: 525px;
+	position: relative;
+}
+#ruleta #palanca {
+	right: -160px;
+	top: 32%;
+	bottom: initial;
+	left: auto;
+	margin: 0;
+	cursor: pointer;
+	-webkit-transform-origin: 0% 0%;
+	-moz-transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	transform-origin: 0% 0%;
+	-webkit-transition-duration: 200ms;
+	-moz-transition-duration: 200ms;
+	transition-duration: 200ms;
+}
+#ruleta #table_place {
+	width: 400px;
+}
+#ruleta #table_compani {
+	width: 315px;
+}
+#ruleta #table_fruit {
+	width: 226px;
+}
+#ruleta ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: block;
+	left: 50%;
+	top: 50%;
+	-webkit-transition-duration: 5s;
+	-moz-transition-duration: 5s;
+	transition-duration: 5s;
+}
+#ruleta li img {
+	width: 75px;
+	left: -37.5px;
+	top: -75px;
+	-webkit-transform-origin: 50% 100%;
+	-moz-transform-origin: 50% 100%;
+	-ms-transform-origin: 50% 100%;
+	transform-origin: 50% 100%;
+}
+#fruit li img {
+	width: 65px;
+	top: -65px;
+	left: -32.5px;
+}
+#lightbox_mezclas {
+	width: 100%;
+	height: calc(100% + 100px);
+	height: -moz-calc(100% + 100px);
+	display: none;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: url(/zignum/public/img/paternAlert.png);
+	z-index: 2;
+	position: fixed;
+}
+#cont_inf_mezcla {
+	width: 50%;
+	height: 45%;
+	top: 20%;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#resp_mezcla {
+	height: 75%;
+	background: url(/zignum/public/img/box_resultado-juego.png) !important;
+	background-size: 100% 100% !important;
+	background-repeat: no-repeat !important;
+	background-position: top;
+	padding-top: 3%;
+	border-radius: 5px;
+}
+#resp_mezcla > p, #resp_mezcla > :nth-child(3) p:last-child {
+	text-align: center;
+	font-size: 20px;
+	margin: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+#resp_mezcla > div {
+	width: 33%;
+	height: 70%;
+	display: inline-block;
+	float: left;
+	text-align: center;
+}
+#resp_mezcla > div img {
+	height: 100%;
+}
+#resp_mezcla > :nth-child(2) p, #resp_mezcla > :nth-child(4) p {
+	bottom: -25%;
+	width: 75%;
+	margin-left: 15%;
+	font-family: 'Open Sans', sans-serif;
+}
+#resp_mezcla > :nth-child(2) p:first-child{
+	font-size: 18px;
+}
+#resp_mezcla > :nth-child(4) img {
+	top: -8%;
+	left: -5%;
+}
+#resp_mezcla > :nth-child(3) {
+	padding-top: 10%;
+}
+#cerrar_resp_mezcla {
+	position: absolute;
+	z-index: 1;
+	right: 2%;
+	top: 4%;
+	cursor: pointer;
+}
+#buttons_lightbox {
+	height: 20%;
+	margin-top: 5%;
+	text-align: center;
+	padding: 0 5%;
+}
+#buttons_lightbox button {
+	width: 30%;
+	height: 100%;
+	float: left;
+	background: url(/zignum/public/img/btn-fondoOff-box.png);
+	border: none;
+	white-space: pre-line;
+	font-family: 'Open Sans', sans-serif;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 96% 93%;
+	-webkit-transition-duration: 300ms;
+	-moz-transition-duration: 300ms;
+	transition-duration: 300ms;
+}
+#buttons_lightbox button:nth-child(2) {
+	margin: 0 5%;
+}
+#buttons_lightbox button:hover {
+	-webkit-transition-duration: 300ms;
+	-moz-transition-duration: 300ms;
+	transition-duration: 300ms;
+	background: url(/zignum/public/img/btn-fondoON-box.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+}
+#cont_ruleta > p:nth-child(2) span {
+	color: #15889b;
+}
+#cont_ruleta > p:nth-child(3) span {
+	border-bottom: 2px solid #15889b;
+	cursor: pointer;
+}
+#btn_palanca {
+	display: none;
+}
+#instruction {
+	background: url(/zignum/public/img/paternAlert.png);
+	z-index: 2;
+	display: none;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+#ruleta .instruc {
+	display: none;
+	z-index: 5;
+}
+#ruleta #ins_exit {
+	top: 300px;
+	cursor: pointer;
+}
+#ruleta #ins_img {
+	left: -155px;
+	top: -80px;
+}
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+	#cont_inf_mezcla {
+		width: 65%;
+	}
+}
+
+/*----------------------------------------------------*/
+#recomend{
+	height: 100%;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 79;
+	display: none;
+	opacity: 0;
+	position: fixed;
+}
+#nota {
+	width: 32%;
+	height: 67%;
+	background-color: rgba(0,0,0,.6);
+	position: relative;
+	top: 18%;
+	left: 35%;
+	z-index: 80;
+	background-color: #15889b;
+	text-align: center;
+	border-radius: 9px;
+	box-shadow: 0px 0px 60px 10px #00fff0;
+}
+#nota div {
+	text-align: center;
+	height: 100%;
+}
+#nota div p {
+	font-size: 150%;
+}
+#nota div label {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+#nota div input, #nota div textarea {
+	width: 80%;
+	height: 10%;
+	border: 1px solid #14AEC9;
+	background-color: rgba(0,0,0,.5);
+	font-family: 'Open Sans', sans-serif;
+}
+#nota div textarea {
+	height: 25%;
+}
+#nota div button {
+	width: 35%;
+	height: 10%;
+	border: 1px solid #14AEC9;
+	float: center;
+	background-color: black;
+	font-size: 20px;	
+	font-family: 'Open Sans', sans-serif;
+}
+
+#exit_nota {
+	position: relative;
+	left: 45%;
+	z-index: 1;
+	cursor: pointer;
+}
+#nota div .email_error {
+	display: none;
+	font-size: 10px;
+}
+#nota .form > :last-child {
+	font-size: 11px;
+	display: none;
+}

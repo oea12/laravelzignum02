@@ -1,0 +1,18 @@
+h1,h2{
+	color: white;
+}
+
+body{
+	background-color: black;
+}
+.comment {
+	background-color: white;
+}
+
+#vine{
+	border: solid;
+	border-color: green;
+	border-radius: 10px;
+	height: 20em;
+	width: 20em;
+}

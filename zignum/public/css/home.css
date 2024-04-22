@@ -1,0 +1,53 @@
+.contain {
+	width: 100%;
+	max-width: 1280px;
+	height: 100%;
+	max-height: 845px;
+	margin: auto;
+	opacity: 0;
+	background: url(/zignum/public/img/fondo-home.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+#cont_home {
+	width: 50%;
+	height: 50%;
+	text-align: center;
+	top: 45%;
+	left: 17%;
+	position: absolute;
+}
+.logo_casa {
+	width: 6%;
+}
+#logo_center {
+	bottom: 0;
+	margin: 0;
+	height: 40%;
+	display: none;
+}
+#botellas_home {
+	position: absolute;
+	right: 0;
+	margin-right: -25%;
+	height: 60% !important;
+	width: auto !important;
+	top: 35%;
+	opacity: 0;
+}
+#dec_center {
+	text-align: center;
+	top: 10%;
+	width: 100%;
+	opacity: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+#dec_center span {
+	font-weight: bolder;
+}
+#cont_home .dmp {
+	margin-top: 6%;
+	height: 25%;
+}

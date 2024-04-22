@@ -1,0 +1,139 @@
+.contain {
+	height: calc(100% + 200px);
+	height: -moz-calc(100% + 200px);
+	max-height: 1014px;
+}
+.nav_left {
+	height: calc(70% - 100px);
+	height: -moz-calc(70% - 100px);
+	top: 16%;
+}
+#back_gallery {
+	width: 10%;
+	height: 10%;
+	margin-left: 5%;
+	position: absolute;
+	padding-left: 1%;
+	bottom: 100px;
+	display: none;
+	z-index: 1;
+	cursor: pointer;
+}
+#back_gallery img {
+	position: absolute;
+}
+#back_gallery img:nth-child(2) {
+	display: none;
+	cursor: pointer;
+}
+.cont_all {
+	width: 100%;
+	margin: auto;
+	max-width: 1280px;
+	padding-left: 25%;
+	top: 15%;
+	padding-right: 5%;
+	height: 70%;	
+}
+.cont_all p {
+	text-align: center;
+	margin-bottom: 2%;
+	font-family: 'Open Sans', sans-serif;
+}
+#title {
+	font-size: 30px;
+	height: auto;
+	font-family: 'Open Sans', sans-serif;
+}
+.list {
+	height: 90%
+}
+.list ul, #photos ul {
+	list-style: none;
+	padding: 0;
+	height: 90%;
+	overflow-y: hidden;
+	margin: 0;
+}
+#photos ul {
+	height: 73%;
+}
+#desc {
+	margin-bottom: 3%;
+}
+.list ul li, #photos ul li {
+	cursor: pointer;
+	display: inline-block;
+	width: 50%;
+	float: left;
+	height: 50%;
+	background-repeat: no-repeat;
+	background-size: cover !important;
+	background-position: center;
+	-webkit-filter: grayscale(75%);
+	-moz-filter: grayscale(75%);
+	-ms-filter: grayscale(75%);
+	filter: grayscale(75%);
+	-webkit-transition-timing-function: cubic-bezier(1, .5, 0, 0);
+	-moz-transition-timing-function: cubic-bezier(1, .5, 0, 0);
+	transition-timing-function: cubic-bezier(1, .5, 0, 0);
+	-webkit-transition-duration: 1s;
+	-moz-transition-duration: 1s;
+	transition-duration: 1s;
+}
+.list ul li:hover, .list ul li:hover p, #photos ul li:hover {
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	-ms-filter: grayscale(0%);
+	filter: grayscale(0%);
+	text-decoration: underline;
+}
+.list ul li p {
+	top: 40%;
+	font-size: 25px;
+}
+#up, #down, #up_img, #down_img {
+	height: 8%;
+	width: 100%; 
+	cursor: pointer;
+}
+#albums, #photos, #photos_lightbox {
+	display: none;
+}
+#albums, #photos {
+	height: 90%;
+}
+#photos > p {
+	text-align: left;
+	margin-bottom: 1.5%;
+	display: inline-block;
+}
+#subtitle {
+	font-size: 22px;
+	float: left;
+	border-bottom: 2px solid #14aec9;
+}
+#photos_lightbox {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	text-align: center;
+	background: url(/zignum/public/img/paternAlert.png);
+	z-index: 3;
+}
+#photos_lightbox img:nth-child(1) {
+	height: 60%;
+	border: 5px solid black;
+	top: 15%;
+}
+#photos_lightbox img:nth-child(2) {
+	position: absolute;
+	cursor: pointer;
+}
+#up, #up_img {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}

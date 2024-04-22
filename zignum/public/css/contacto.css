@@ -1,0 +1,141 @@
+.contacto {
+	width: 270px;
+	height: 70%;
+	margin-left: 45%;
+	top: 20%;
+	opacity: 0;
+}
+.contacto div {
+	text-align: center;
+	height: 100%;
+}
+.contacto div p {
+	font-size: 35px;
+	margin-bottom: 5%;
+}
+.contacto div label {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+}
+.contacto div input, .contacto div textarea {
+	width: 100%;
+	height: 10%;
+	margin-bottom: 5%;
+	border: 1px solid #14AEC9;
+	background-color: rgba(0,0,0,.5);
+	font-family: 'Open Sans', sans-serif;
+}
+.contacto div textarea {
+	height: 25%;
+}
+.contacto div button {
+	width: 35%;
+	height: 10%;
+	border: 1px solid #14AEC9;
+	float: right;
+	background-color: black;
+	font-size: 20px;	
+	font-family: 'Open Sans', sans-serif;
+}
+.contacto div > :nth-child(16) {
+	float: left;
+}
+#cont_send {
+	margin-top: 8%;
+	position: relative;
+}
+
+#note {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.6);
+	position: absolute;
+	top: 0;
+	display: none;
+	opacity: 0;
+}
+#note p {
+	display: inline-block;
+	position: relative;
+	width: auto;
+	height: auto;
+	background-color: #15889b;
+	text-align: center;
+	margin: auto;
+	padding: 25px;
+	border-radius: 9px;
+	box-shadow: 0px 0px 60px 10px #00fff0;
+	white-space: pre-line;
+}
+#note div {
+	height: 20%;
+	width: auto;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	text-align: center;
+}
+#exit_note {
+	position: absolute;
+	left: 0;
+	top: 0px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+#note2 {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.6);
+	position: absolute;
+	top: 0;
+	display: none;
+	opacity: 0;
+}
+#note2 p {
+	display: inline-block;
+	position: relative;
+	width: auto;
+	height: auto;
+	background-color: #15889b;
+	text-align: center;
+	margin: auto;
+	padding: 25px;
+	border-radius: 9px;
+	box-shadow: 0px 0px 60px 10px #00fff0;
+	white-space: pre-line;
+}
+#note2 div {
+	height: 20%;
+	width: auto;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	position: absolute;
+	text-align: center;
+}
+
+#exit_note2 {
+	position: absolute;
+	left: 0;
+	top: 0px;
+	z-index: 1;
+	cursor: pointer;
+}
+
+.somb {
+	position: absolute;
+	width: 35%;
+	height: 10%;
+}
+#form > :nth-child(15) {
+	left: 0;
+}
+#form > :nth-child(17) {
+	right: 0;
+}

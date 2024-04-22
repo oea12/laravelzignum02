@@ -1,0 +1,100 @@
+.botella_dem {
+	height: 75%;
+	top: 20%;
+	margin-left: 30%;
+	display: none;
+}
+.dec_mezcal {
+	width: 0px;
+	max-width: 375px;
+	position: absolute;
+	opacity: 0;
+	right: 6%;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 50%;
+	padding-top: 2%;
+	padding-left: 3%;
+	background: url(/zignum/public/img/linea-azul-left.png);
+	background-size: 6px 100%;
+	background-repeat: no-repeat;
+}
+.dec_mezcal > * {
+	opacity: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.dec_mezcal ul p {
+	white-space: pre-line;
+}
+.dec_mezcal > p:first-child {
+	font-size: 30px;
+}
+.dec_mezcal p:first-child span {
+	color: #14aec9;
+}
+.dec_mezcal p:nth-child(2) span, #dec_mezcal ul li p::first-line {
+	font-weight: bolder;
+}
+.dec_mezcal p:nth-child(2) span:nth-child(2) {
+	border-bottom: 1px solid #14aec9;
+}
+.dec_mezcal ul {
+	padding-left: 20px;
+}
+.dec_mezcal ul li {
+	color: #14aec9;
+}
+.dec_mezcal a {
+	border-bottom: 2px solid #14aec9;
+}
+#mezcal {
+	position: absolute;
+	right: 0;
+	left: 0;
+	padding-left: 20%;
+	text-align: center;
+	font-size: 30px;
+	top: 25%;
+	opacity: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.elmezcal {
+	width: 1%;
+	left: 25%;
+	top: 20%;
+	max-width: 500px;
+	padding-right: 0%;
+	padding-left: 0%;
+	padding-top: 2%;
+	background: left url(/zignum/public/img/linea-azul-left.png), right url(/zignum/public/img/linea-azul-right.png);
+	background-size: 6px 100%;
+	background-repeat: no-repeat;
+}
+.elmezcal p {
+	font-size: 15px !important;
+	font-weight: 100 !important;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.elmezcal span:nth-child(1), .elmezcal span:nth-child(2) {
+	font-weight: bold;
+}
+.img_acom {
+	position: absolute;
+	width: 15%;
+	top: 43%;
+}
+#img1_ac {
+	left: 25%;
+}
+#img2_ac {
+	right: 6%;
+}
+@media screen and (max-width: 800px) {
+	.botella_dem {
+		height: 55%;
+		top: 35%;
+		margin-left: 0%;
+	}
+}

@@ -1,0 +1,138 @@
+#cont_left_vine {
+	width: 20%;
+	height: 60%;
+	margin-top: 15%;
+	display: inline-block;
+	left: 24%;
+	float: left;
+	opacity: 0}
+#fade_vine, #link_mezcla {
+	width: auto;
+	height: 47.5%;
+	text-align: center;
+}
+#fade_vine {
+	border: 1px solid #ab7f18;
+	background: #ab7f18;
+	overflow: hidden;
+} 
+#fade_vine p {
+	font-family: 'socicon' !important;
+	position: absolute;
+	z-index: 1;
+	font-size: 35px;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	height: 60px;
+	background-color: yellow;
+	width: 60px;
+	border-radius: 50%;
+	padding-top: 10px;
+	cursor: pointer;
+} 
+#link_mezcla {
+	margin-top: 8%;
+}
+#fade_vine > img {
+	width: 25%;
+	height: auto;
+	position: absolute;
+	z-index: 1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+#link_mezcla a {
+	top: 10%;
+	width: 100%;
+	height: 100%;
+	font-size: 25px;
+	white-space: pre-line;
+	color: white;
+	font-weight: bolder;
+}
+#link_mezcla a span {
+	font-weight: normal;
+}
+#carrusel_vine {
+	width: 45%;
+	float: right;
+	margin-top: 15%;
+	margin-right: 7%;
+	height: 60% !important;
+	display: none;
+}
+#carrusel_vine .bjqs {
+	height: 100% !important;
+	z-index: 1;
+}
+#carrusel_vine .bjqs li {
+	height: 100% !important;
+	background-repeat: no-repeat !important;
+	background-size: auto 100% !important;
+	background-position: top !important;
+	border: 1px solid #14aec9;
+}
+#carrusel_vine .bjqs li > a {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+#vine_thumbnail {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover !important;
+	background-position: center;
+}
+
+.bjqs-controls.v-centered {
+	position: absolute;
+	width: 115%;
+	height: 10%;
+	opacity: 1;
+	top: 45%;
+	left: -7.5%;
+	z-index: 0;
+}
+.bjqs-controls.v-centered li {
+	height: 100%;
+	width: 5%;
+	float: left;
+	display: inline-block;
+}
+.bjqs-controls.v-centered .bjqs-next {
+	float: right;
+}
+.bjqs-controls.v-centered li a {
+	top: 0 !important;
+}
+.bjqs-markers.h-centered {
+	display: none;
+}
+#link_mezcla_mov {
+	float: right;
+	display: none;
+}
+.bjqs-prev a img {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.bjqs-next a img, .bjqs-prev a img {
+	cursor: pointer;
+}
+@media screen and (min-width: 800px) and (max-width: 1100px) {
+	#cont_left_vine {
+		left: 21%;
+	}
+	#carrusel_vine {
+		margin-right: 4%;
+	}
+}

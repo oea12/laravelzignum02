@@ -1,0 +1,18 @@
+body{
+	background-color: white!important;
+	padding-top: 2em!important;
+}
+nav.navbar-inverse{
+	background: black;
+}
+#backend_logo{
+	width: 10%;
+	height: 90%;
+}
+a, a:hover {
+	color:#9E8F22;
+}
+
+.nav>li.active a {
+	color:#6C368A;
+}
